@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.uidk9044.mobilecontrol.Activitys.MainActivity">
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" >
+        <menu >
+            <item android:title="Font" />
+            <item android:title="Dimensions" />
+            <item android:title="Sizes" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_show_ir_list"
+        android:icon="@drawable/conti_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="Icon_Conti"
+        app:showAsAction="always"
+        android:orderInCategory="101" />
+    <item
+        android:id="@+id/about_app_id"
+        android:title="About app"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/login_id"
+        android:title="Login"
+        app:showAsAction="always"/>
+
+</menu>

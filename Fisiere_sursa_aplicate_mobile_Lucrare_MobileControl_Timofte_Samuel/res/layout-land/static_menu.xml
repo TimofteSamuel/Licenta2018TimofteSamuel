@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"  android:id="@+id/static_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.uidk9044.mobilecontrol.Activitys.StaticMenuActivity"
+   >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="3">
+
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Componenta"/>
+            <ImageView
+                app:srcCompat="@drawable/conti_logo"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView />
+        </TableRow>
+
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Volan"/>
+            <ImageView
+                app:srcCompat="@drawable/volan"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Baterie"/>
+            <ImageView
+                app:srcCompat="@drawable/baterie"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Frana"/>
+            <ImageView
+                app:srcCompat="@drawable/frana"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Radiator"/>
+            <ImageView
+                app:srcCompat="@drawable/radiator"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Roata"/>
+            <ImageView
+                app:srcCompat="@drawable/roata"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Tranmisie"/>
+            <ImageView
+                app:srcCompat="@drawable/transmisie"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Turometru"/>
+            <ImageView
+                app:srcCompat="@drawable/turometru"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow android:gravity="left"
+            android:stretchColumns="2">
+            <TextView android:text="Ulei"/>
+            <ImageView
+                app:srcCompat="@drawable/ulei"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                />
+            <Button android:text="Vezi stare"/>
+            <TextView android:text="Stare"
+                android:gravity="center"/>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView >

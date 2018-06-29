@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.uidk9044.mobilecontrol.Activitys.MainActivity">
+    <item
+        android:id="@+id/action_show_ir_list"
+        android:icon="@drawable/conti_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="Icon_Conti"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/connect_text_id"
+        android:title="State"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/verify_conn_id"
+        android:title="Verify connection"
+        app:showAsAction="always"/>
+</menu>
